@@ -22,9 +22,9 @@
 
               canvas.onmousemove = function moveCircle () {
                   context.beginPath();
-                  context.clearRect(0, 0, canvas.width, canvas.height);
+                  //context.clearRect(0, 0, canvas.width, canvas.height);
                   //ctx.moveTo(0,0);
-                  context.arc(event.clientX,event.clientY,50,0,2*Math.PI);
+                  context.arc(event.clientX,event.clientY,35,0,2*Math.PI);
                   context.stroke();
                   context.closePath();
               }
